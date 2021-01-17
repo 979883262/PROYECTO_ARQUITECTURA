@@ -1,0 +1,127 @@
+
+
+.cabecera{
+    float: none;
+    font-weight: bold;
+}
+body{
+.body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}
+@@ -22,14 +23,47 @@ body{
+	padding: 20px;
+	display: block;
+}
+.cabecera-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	overflow: hidden;
+}
+
+.menu li{
+.cabecera-logo {
+	float: left;
+}
+.cabecera-wrapper a:hover{
+	background-color:navy;
+	color: whitesmoke;
+}
+.cabecera-menu-link {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-transform: capitalize;
+	line-height: 25px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.cabecera2{
+	font-weight: bold;
+	color: dodgerblue;
+	text-align: center;
+	font-size: 30px;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+.card-title{
+	color: dodgerblue;
+	text-align: center;
+	font-size: 20px;
+}
+.navbar-text{
+	word-spacing: 2px;
+}
+ul{
+	list-style-type: none;
+}
+
+
+
+ 62  css/estilo2.css 
+@@ -0,0 +1,62 @@
+.cabecera {
+	background-color: midnightblue}
+
+.cabecera-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	overflow: hidden;
+}
+
+.cabecera-logo {
+	float: left;
+}
+
+.cabecera-menu {
+	float: left;
+}
+
+.cabecera-menu-wrapper {
+	margin: 0;
+}
+
+.cabecera-menu-item {
+	display: inline; block;
+	font-size: 10px;
+}
+.cabecera-menu-item a{
+	float: left;
+	display: block;
+	color: royalblue;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.cabecera-wrapper a:hover{
+	background-color:mediumblue;
+	color: black;
+}
+.cabecera-menu-link {
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-transform: capitalize;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 40%;
+    height: 40%;
+}
+.cabecera2{
+	font-weight: bold;
+	color: dodgerblue;
+	text-align: center;
+	font-size: 30px;
+} 
